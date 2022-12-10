@@ -2,7 +2,7 @@
 export class Router {
     constructor(routes, rootElem) {
         this.routes = routes;
-        this.rootElem = rootElem ? document.getElementById(rootElem) : document.getElementById("#root");
+        this.rootElem = rootElem ? document.getElementById(rootElem) : document.getElementById("root");
         this.defautlRoute = routes.find(el => el.default);
     }
 
